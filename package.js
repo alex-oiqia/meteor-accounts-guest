@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-    api.versionsFrom("METEOR@1.6.1");
+    api.versionsFrom("METEOR@2.7.1");
     api.use(['accounts-base'], 'client');
     api.use(['accounts-base', 'mongo', 'check', 'random'], 'server');
     api.use('accounts-password', 'server', { weak: true });
@@ -23,7 +23,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-    api.versionsFrom("METEOR@1.6.1");
+    api.versionsFrom("METEOR@2.7.1");
     api.use(['accounts-base', 'accounts-password', 'mongo', 'tinytest','deps','ddp'], ['client','server']);
     api.use('baursn:accounts-guest');
     api.add_files('accounts-guest-server-tests.js', 'server');
