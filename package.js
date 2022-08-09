@@ -1,8 +1,8 @@
 Package.describe({
     summary: "Automatically add visitor as anonymous guest with userId",
-    version: "0.1.18",
-    name: "baursn:accounts-guest",
-    git: "https://github.com/baursn/meteor-accounts-guest.git"
+    version: "0.1.19",
+    name: "alex-oiqia:accounts-guest",
+    git: "https://github.com/alex-oiqia/meteor-accounts-guest.git"
 });
 
 Package.onUse(function (api) {
